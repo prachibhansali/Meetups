@@ -15,6 +15,10 @@
 		7D5F37AE1D1F9F9D00029860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5F37AC1D1F9F9D00029860 /* LaunchScreen.storyboard */; };
 		7D5F37B91D1F9F9D00029860 /* MeetupsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F37B81D1F9F9D00029860 /* MeetupsTests.swift */; };
 		7D5F37C41D1F9F9D00029860 /* MeetupsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F37C31D1F9F9D00029860 /* MeetupsUITests.swift */; };
+		7D5F37D21D1FAB5600029860 /* YourEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F37D11D1FAB5600029860 /* YourEventsViewController.swift */; };
+		7D5F37D41D1FAB6600029860 /* ViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = 7D5F37D31D1FAB6600029860 /* ViewControllers */; };
+		7D5F37D61D1FAF2F00029860 /* EditEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F37D51D1FAF2F00029860 /* EditEventViewController.swift */; };
+		7D5F37D81D1FAFBC00029860 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F37D71D1FAFBC00029860 /* AddEventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		7D5F37BF1D1F9F9D00029860 /* MeetupsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5F37C31D1F9F9D00029860 /* MeetupsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupsUITests.swift; sourceTree = "<group>"; };
 		7D5F37C51D1F9F9D00029860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D5F37D11D1FAB5600029860 /* YourEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YourEventsViewController.swift; path = ViewControllers/YourEventsViewController.swift; sourceTree = "<group>"; };
+		7D5F37D31D1FAB6600029860 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewControllers; sourceTree = "<group>"; };
+		7D5F37D51D1FAF2F00029860 /* EditEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditEventViewController.swift; path = ViewControllers/EditEventViewController.swift; sourceTree = "<group>"; };
+		7D5F37D71D1FAFBC00029860 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,13 @@
 		7D5F379F1D1F9F9D00029860 /* Meetups */ = {
 			isa = PBXGroup;
 			children = (
+				7D5F37D31D1FAB6600029860 /* ViewControllers */,
 				7D5F37A01D1F9F9D00029860 /* AppDelegate.swift */,
 				7D5F37A21D1F9F9D00029860 /* ViewController.swift */,
 				7D5F37A41D1F9F9D00029860 /* Main.storyboard */,
+				7D5F37D71D1FAFBC00029860 /* AddEventViewController.swift */,
+				7D5F37D51D1FAF2F00029860 /* EditEventViewController.swift */,
+				7D5F37D11D1FAB5600029860 /* YourEventsViewController.swift */,
 				7D5F37AA1D1F9F9D00029860 /* Assets.xcassets */,
 				7D5F37AC1D1F9F9D00029860 /* LaunchScreen.storyboard */,
 				7D5F37AF1D1F9F9D00029860 /* Info.plist */,
@@ -233,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D5F37AE1D1F9F9D00029860 /* LaunchScreen.storyboard in Resources */,
+				7D5F37D41D1FAB6600029860 /* ViewControllers in Resources */,
 				7D5F37AB1D1F9F9D00029860 /* Assets.xcassets in Resources */,
 				7D5F37A61D1F9F9D00029860 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D5F37D61D1FAF2F00029860 /* EditEventViewController.swift in Sources */,
+				7D5F37D81D1FAFBC00029860 /* AddEventViewController.swift in Sources */,
+				7D5F37D21D1FAB5600029860 /* YourEventsViewController.swift in Sources */,
 				7D5F37A31D1F9F9D00029860 /* ViewController.swift in Sources */,
 				7D5F37A91D1F9F9D00029860 /* Meetups.xcdatamodeld in Sources */,
 				7D5F37A11D1F9F9D00029860 /* AppDelegate.swift in Sources */,
